@@ -5,9 +5,10 @@ class Solution
     public double solution(int[] arr) 
     {
         double answer = 0;
-        
-        answer = Arrays.stream(arr).average();
-        
+
+        answer = Arrays.stream(arr).sum();
+        answer = answer / (arr.length);
+
         return answer;
     }
 }
