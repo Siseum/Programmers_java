@@ -103,6 +103,7 @@ class Solution {
             else
                 answer[i]=0;
         }
+        
         return answer;
     }
 }
