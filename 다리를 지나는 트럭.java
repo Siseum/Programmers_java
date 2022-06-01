@@ -16,7 +16,7 @@ class Solution {
 
         for(int i=0;i< infos.length;i++)
         {
-            infos[i]=new Info();
+            infos[i] = new Info();
             infos[i].weight = truck_weights[i];
             infos[i].length = 0;
         }
